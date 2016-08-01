@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="top|center"
+	android:background="@color/main_background">
+
+	<View
+		android:layout_height="80dp"
+		android:layout_width="match_parent"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:text="@string/title"
+		android:textSize="50sp"
+		android:textStyle="italic"
+		android:textAlignment="textStart"
+		android:gravity="center"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<View
+			android:layout_height="20dp"
+			android:layout_width="65dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="@string/data"
+			android:textSize="20sp"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_height="100dp"
+		android:layout_width="match_parent"/>
+
+	<Button
+		android:layout_height="45dp"
+		android:layout_width="150dp"
+		android:text="@string/about"
+		android:id="@+id/button_about"
+		android:background="@color/main_button"
+		android:textColor="#FFFFFF"
+		android:textSize="17sp"/>
+
+	<View
+		android:layout_height="25dp"
+		android:layout_width="40dp"/>
+
+	<Button
+		android:layout_height="55dp"
+		android:layout_width="200dp"
+		android:text="@string/add"
+		android:id="@+id/button_add"
+		android:background="@color/main_button"
+		android:textColor="#FFFFFF"
+		android:textSize="18sp"/>
+
+	<View
+		android:layout_height="25dp"
+		android:layout_width="40dp"/>
+
+	<Button
+		android:layout_height="55dp"
+		android:layout_width="200dp"
+		android:text="@string/startgame"
+		android:background="@color/main_button"
+		android:textSize="18sp"
+		android:textColor="#FFFFFF"
+		android:id="@+id/button_start"/>
+
+</LinearLayout>
+
