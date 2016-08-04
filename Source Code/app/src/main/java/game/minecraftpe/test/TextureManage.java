@@ -58,7 +58,9 @@ public class TextureManage
                     {
                         if (open(str + "/" + "Game_Texture.zip", importmethodset))
                         {
-                            io.show(ctx, ctx.getString(R.string.texture_export_ok));
+                            //启动器材质包导入api目前存在问题
+                            //io.show(ctx,ctx.getString(R.string.texture_export_ok));
+                            io.show(ctx,ctx.getString(R.string.texture_no_support_blocklauncher));
                         }
                         else
                         {
@@ -108,7 +110,9 @@ public class TextureManage
                                 io.readZipFile(textureoutputpath + "/Game_Texture.zip", "pack.mcmeta");
                                 if (open(str + "/" + "Game_Texture.zip", importmethodset))
                                 {
-                                    io.show(ctx,ctx.getString(R.string.texture_export_ok));
+                                    //启动器材质包导入api目前存在问题
+                                    //io.show(ctx,ctx.getString(R.string.texture_export_ok));
+                                    io.show(ctx,ctx.getString(R.string.texture_no_support_blocklauncher));
                                 }
                                 else
                                 {
